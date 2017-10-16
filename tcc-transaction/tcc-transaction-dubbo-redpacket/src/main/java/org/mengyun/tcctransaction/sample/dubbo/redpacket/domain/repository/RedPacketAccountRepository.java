@@ -1,0 +1,33 @@
+/*
+ * ====
+ * 陈德元：
+
+
+
+ * ====
+ */
+package org.mengyun.tcctransaction.sample.dubbo.redpacket.domain.repository;
+
+import org.mengyun.tcctransaction.sample.dubbo.redpacket.domain.entity.RedPacketAccount;
+import org.mengyun.tcctransaction.sample.dubbo.redpacket.infrastructure.dao.RedPacketAccountDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+/**
+ * Created by  on 4/2/16.
+ */
+@Repository
+public class RedPacketAccountRepository {
+
+    @Autowired
+    RedPacketAccountDao redPacketAccountDao;
+
+    public RedPacketAccount findByUserId(long userId) {
+
+        return redPacketAccountDao.findByUserId(userId);
+    }
+
+    public void save(RedPacketAccount redPacketAccount) {
+        redPacketAccountDao.update(redPacketAccount);
+    }
+}
