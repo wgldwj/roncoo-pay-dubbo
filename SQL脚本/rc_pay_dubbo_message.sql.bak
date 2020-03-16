@@ -1,8 +1,4 @@
-﻿
-CREATE DATABASE `rc_pay_dubbo_message` /*!40100 DEFAULT CHARACTER SET utf8 */;
-
-use rc_pay_dubbo_message;
-# Host: 192.168.1.201  (Version 5.6.22)
+﻿# Host: 192.168.1.201  (Version 5.6.22)
 # Date: 2016-09-19 00:23:03
 # Generator: MySQL-Front 5.3  (Build 7.5)
 

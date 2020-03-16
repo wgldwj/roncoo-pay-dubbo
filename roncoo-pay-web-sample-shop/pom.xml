@@ -36,7 +36,7 @@
 						<contextPath>/</contextPath>
 					</webApp>
 					<httpConnector>
-						<port>6666</port>
+						<port>8088</port>
 					</httpConnector>
 					<reload>automatic</reload>
 				</configuration>

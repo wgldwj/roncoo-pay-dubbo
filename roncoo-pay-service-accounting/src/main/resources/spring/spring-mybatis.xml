@@ -13,12 +13,6 @@
 		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 
 
-
-
-
-
-
-
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="clone">
 		<!-- 基本属性driverClassName、 url、user、password -->
